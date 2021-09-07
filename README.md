@@ -48,6 +48,6 @@ curl --location --request POST 'http://localhost:8084/api/v1/item/' \
 ```
 Get Items:
 ```shell
-curl --location --request POST 'http://localhost:8084/api/v1/item/' \
+curl --location --request GET 'http://localhost:8084/api/v1/item/' \
 --data-raw ''
 ```
